@@ -1,0 +1,49 @@
+{
+  "nombre": "ArenaGG",
+  "cuentas": [
+    {
+      "idCuenta": 1001,
+      "alias": "shadow",
+      "rango": "novata",
+      "balance": 395,
+      "transacciones": [
+        {
+          "id": 1,
+          "fecha": 20261105,
+          "tipo": "compra",
+          "cantidad": 500
+        },
+        {
+          "id": 2,
+          "fecha": 20261105,
+          "tipo": "envio",
+          "cantidad": 100,
+          "receptor": 1009,
+          "recargo": 5
+        }
+      ]
+    },
+    {
+      "idCuenta": 1009,
+      "alias": "clan-alfa",
+      "rango": "club",
+      "claveClub": "ALFA2026",
+      "balance": 1100,
+      "transacciones": [
+        {
+          "id": 2,
+          "fecha": 20261105,
+          "tipo": "recepcion",
+          "cantidad": 100,
+          "emisor": 1001
+        },
+        {
+          "id": 3,
+          "fecha": 20261105,
+          "tipo": "compra",
+          "cantidad": 1000
+        }
+      ]
+    }
+  ]
+}
