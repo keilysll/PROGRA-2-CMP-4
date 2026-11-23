@@ -1,0 +1,81 @@
+{
+  "codigo": 50011,
+  "titular": "ana",
+  "tipo": "estandar",
+  "saldo": 30,
+  "operaciones": [
+    {
+      "id": 1,
+      "fecha": 20261101,
+      "tipo": "carga",
+      "monto": 200
+    },
+    {
+      "id": 2,
+      "fecha": 20261101,
+      "tipo": "pagoviaje",
+      "monto": 40,
+      "linea": "linea-1",
+      "bonificacion": 0,
+      "anulado": false
+    },
+    {
+      "id": 3,
+      "fecha": 20261101,
+      "tipo": "pagoviaje",
+      "monto": 50,
+      "linea": "linea-2",
+      "bonificacion": 0,
+      "anulado": false
+    },
+    {
+      "id": 4,
+      "fecha": 20261102,
+      "tipo": "pagoviaje",
+      "monto": 80,
+      "linea": "linea-3",
+      "bonificacion": 0,
+      "anulado": false
+    }
+  ]
+} {
+  "codigo": 50022,
+  "titular": "luis",
+  "tipo": "estudiantil",
+  "saldo": 100,
+  "operaciones": [
+    {
+      "id": 1,
+      "fecha": 20261101,
+      "tipo": "carga",
+      "monto": 200
+    },
+    {
+      "id": 2,
+      "fecha": 20261101,
+      "tipo": "pagoviaje",
+      "monto": 45,
+      "linea": "linea-1",
+      "bonificacion": 2,
+      "anulado": false
+    },
+    {
+      "id": 3,
+      "fecha": 20261101,
+      "tipo": "pagoviaje",
+      "monto": 19,
+      "linea": "linea-2",
+      "bonificacion": 0,
+      "anulado": false
+    },
+    {
+      "id": 4,
+      "fecha": 20261101,
+      "tipo": "pagoviaje",
+      "monto": 40,
+      "linea": "linea-3",
+      "bonificacion": 2,
+      "anulado": false
+    }
+  ]
+}
