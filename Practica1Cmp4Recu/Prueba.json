@@ -1,0 +1,32 @@
+{
+  "codigo": 50011,
+  "titular": "carla",
+  "tipo": "estandar",
+  "saldo": 65,
+  "operaciones": [
+    {
+      "id": 1,
+      "fecha": 20261101,
+      "tipo": "carga",
+      "monto": 100
+    },
+    {
+      "id": 2,
+      "fecha": 20261101,
+      "tipo": "validacion",
+      "monto": 15,
+      "linea": "linea-a",
+      "bonificacion": 0,
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "fecha": 20261101,
+      "tipo": "validacion",
+      "monto": 20,
+      "linea": "linea-b",
+      "bonificacion": 0,
+      "anulada": false
+    }
+  ]
+}
